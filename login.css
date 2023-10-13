@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+input{
+    border-radius:20px;
+}
+.bg{
+    width:100vw;
+    height: 100vh;
+    background-image: linear-gradient(red,blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    overflow: hidden;
+}
+form{
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    border-radius: 30px;
+}
+button{
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border-width: 0px;
+    padding:10px;
+    border-radius: 10px;
+    
+}
+form:hover{
+    box-shadow: 0 0 10px 10px yellow;
+}
+input:hover{
+    border-color:orange;
+}
+.btn{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
